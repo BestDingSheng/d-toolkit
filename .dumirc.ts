@@ -14,6 +14,8 @@ export default defineConfig({
   outputPath: 'site',
   base: '/deson/',
   publicPath: '/deson/',
+  hash: true,
+  history: { type: 'hash' },
   alias: {
     '@deson/components': process.cwd() + '/packages/components/src',
   },
