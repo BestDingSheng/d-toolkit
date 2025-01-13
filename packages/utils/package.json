@@ -1,0 +1,21 @@
+{
+  "name": "@deson/utils",
+  "version": "0.0.1",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "types": "dist/esm/index.d.ts",
+  "scripts": {
+    "build": "father build",
+    "dev": "father dev",
+    "test": "vitest",
+    "test:coverage": "vitest run --coverage",
+    "test:watch": "vitest watch"
+  },
+  "devDependencies": {
+    "vitest": "^0.30.0",
+    "@vitest/coverage-c8": "^0.30.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+} 
