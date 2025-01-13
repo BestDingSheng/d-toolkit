@@ -12,13 +12,13 @@ nav:
 ## 安装
 
 ```bash
-npm install @deson/utils
+npm install @d-toolkit/utils
 ```
 
 ## 使用
 
 ```typescript
-import { capitalize, unique, deepClone } from '@deson/utils';
+import { capitalize, unique, deepClone } from '@d-toolkit/utils';
 ```
 
 ## 工具分类

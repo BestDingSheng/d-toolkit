@@ -14,7 +14,7 @@ nav:
 ### 使用示例
 
 ```typescript
-import { unique } from '@deson/utils';
+import { unique, flatten, groupBy } from '@d-toolkit/utils';
 
 unique([1, 1, 2, 2, 3]); // => [1, 2, 3]
 unique(['a', 'b', 'a', 'c']); // => ['a', 'b', 'c']
@@ -27,7 +27,7 @@ unique(['a', 'b', 'a', 'c']); // => ['a', 'b', 'c']
 ### 使用示例
 
 ```typescript
-import { flatten } from '@deson/utils';
+import { unique, flatten, groupBy } from '@d-toolkit/utils';
 
 flatten([1, [2, 3], [4, [5, 6]]]); // => [1, 2, 3, 4, 5, 6]
 flatten(['a', ['b', 'c'], 'd']); // => ['a', 'b', 'c', 'd']
@@ -40,7 +40,7 @@ flatten(['a', ['b', 'c'], 'd']); // => ['a', 'b', 'c', 'd']
 ### 使用示例
 
 ```typescript
-import { groupBy } from '@deson/utils';
+import { unique, flatten, groupBy } from '@d-toolkit/utils';
 
 const users = [
   { id: 1, role: 'admin' },

@@ -13,7 +13,7 @@ nav:
 
 ```tsx
 import React from 'react';
-import { CustomPreview } from '@deson/components';
+import { CustomPreview } from '@d-toolkit/components';
 
 export default () => {
   const images = [

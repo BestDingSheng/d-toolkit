@@ -2,22 +2,22 @@ import { defineConfig } from 'dumi';
 
 export default defineConfig({
   themeConfig: {
-    name: 'deson',
+    name: 'd-toolkit',
     nav: [
       { title: '指南', link: '/guide' },
       { title: '组件', link: '/components' },
       { title: '工具', link: '/utils' },
     ],
   },
-  favicons: ['/deson/favicon.ico'],
+  favicons: ['/d-toolkit/favicon.ico'],
 //   logo: '/logo.png',
   outputPath: 'site',
-  base: '/deson/',
-  publicPath: '/deson/',
+  base: '/d-toolkit/',
+  publicPath: '/d-toolkit/',
   history: {
     type: 'browser',
   },
   alias: {
-    '@deson/components': process.cwd() + '/packages/components/src',
+    '@d-toolkit/components': process.cwd() + '/packages/components/src',
   },
 }); 

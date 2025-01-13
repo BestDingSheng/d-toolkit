@@ -1,5 +1,5 @@
 {
-  "name": "deson",
+  "name": "d-toolkit",
   "private": true,
   "resolutions": {
     "eslint": "^9.0.0",
@@ -19,8 +19,7 @@
     "prepare": "husky install",
     "changeset": "changeset",
     "version-packages": "changeset version",
-    "release": "pnpm build && changeset publish",
-    "preview": "dumi preview"
+    "release": "pnpm build && changeset publish"
   },
   "devDependencies": {
     "@changesets/cli": "^2.26.0",

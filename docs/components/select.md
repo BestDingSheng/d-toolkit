@@ -13,7 +13,7 @@ nav:
 
 ```tsx
 import React from 'react';
-import { SelectExt } from '@deson/components';
+import { SelectExt } from '@d-toolkit/components';
 
 export default () => {
   const options = [

@@ -13,7 +13,7 @@ nav:
 
 ```tsx
 import React from 'react';
-import { ButtonExt } from '@deson/components';
+import { ButtonExt } from '@d-toolkit/components';
 
 export default () => {
   const handleClick = () => {

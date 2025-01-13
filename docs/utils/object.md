@@ -14,7 +14,7 @@ nav:
 ### 使用示例
 
 ```typescript
-import { deepClone } from '@deson/utils';
+import { deepClone, flattenObject } from '@d-toolkit/utils';
 
 const obj = {
   a: 1,
@@ -33,7 +33,7 @@ const cloned = deepClone(obj);
 ### 使用示例
 
 ```typescript
-import { flattenObject } from '@deson/utils';
+import { deepClone, flattenObject } from '@d-toolkit/utils';
 
 const obj = {
   a: 1,

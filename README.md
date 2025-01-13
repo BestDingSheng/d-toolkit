@@ -1,4 +1,4 @@
-# Deson
+# D-Toolkit
 
 A modern React component library with TypeScript support.
 
@@ -41,14 +41,14 @@ A collection of utility functions for common operations:
 ### Installation
 
 ```bash
-pnpm install deson
+pnpm install @d-toolkit/components @d-toolkit/utils
 ```
 
 ### Usage
 
 ```tsx
-import { CustomPreview, ButtonExt, SelectExt } from '@deson/components';
-import { flatten, unique, groupBy } from '@deson/utils';
+import { CustomPreview, ButtonExt, SelectExt } from '@d-toolkit/components';
+import { flatten, unique, groupBy } from '@d-toolkit/utils';
 ```
 
 ## Development
@@ -76,7 +76,7 @@ pnpm format
 ## Project Structure
 
 ```
-deson/
+d-toolkit/
 ├── packages/
 │   ├── components/     # React components
 │   └── utils/          # Utility functions

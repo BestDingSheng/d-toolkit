@@ -4,12 +4,11 @@
     "declaration": true,
     "skipLibCheck": true,
     "esModuleInterop": true,
-    "jsx": "react-jsx",
-    "baseUrl": ".",
+    "jsx": "react",
+    "baseUrl": "./",
     "paths": {
-      "@@/*": [".dumi/tmp/*"],
-      "@deson/components": ["packages/components/src"],
-      "@deson/components/*": ["packages/components/src/*"],
+      "@d-toolkit/components": ["packages/components/src"],
+      "@d-toolkit/components/*": ["packages/components/src/*"],
     }
   },
   "include": [".dumirc.ts", "docs"]

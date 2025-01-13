@@ -14,7 +14,7 @@ nav:
 ### 使用示例
 
 ```typescript
-import { capitalize } from '@deson/utils';
+import { capitalize, camelToKebab, kebabToCamel } from '@d-toolkit/utils';
 
 capitalize('hello'); // => 'Hello'
 capitalize('world'); // => 'World'
@@ -27,7 +27,7 @@ capitalize('world'); // => 'World'
 ### 使用示例
 
 ```typescript
-import { camelToKebab } from '@deson/utils';
+import { capitalize, camelToKebab, kebabToCamel } from '@d-toolkit/utils';
 
 camelToKebab('helloWorld'); // => 'hello-world'
 camelToKebab('backgroundColor'); // => 'background-color'
@@ -40,7 +40,7 @@ camelToKebab('backgroundColor'); // => 'background-color'
 ### 使用示例
 
 ```typescript
-import { kebabToCamel } from '@deson/utils';
+import { capitalize, camelToKebab, kebabToCamel } from '@d-toolkit/utils';
 
 kebabToCamel('hello-world'); // => 'helloWorld'
 kebabToCamel('background-color'); // => 'backgroundColor'
