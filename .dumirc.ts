@@ -9,9 +9,9 @@ export default defineConfig({
       { title: '工具', link: '/utils' },
     ],
   },
-  favicons: ['/logo.png'],
+  favicons: ['/deson/favicon.ico'],
 //   logo: '/logo.png',
-  outputPath: 'docs-dist',
+  outputPath: 'site',
   base: '/deson/',
   publicPath: '/deson/',
   alias: {
