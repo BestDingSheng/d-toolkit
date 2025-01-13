@@ -19,7 +19,8 @@
     "prepare": "husky install",
     "changeset": "changeset",
     "version-packages": "changeset version",
-    "release": "pnpm build && changeset publish"
+    "release": "pnpm build && changeset publish",
+    "preview": "dumi preview"
   },
   "devDependencies": {
     "@changesets/cli": "^2.26.0",
