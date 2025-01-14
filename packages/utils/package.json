@@ -1,6 +1,6 @@
 {
   "name": "@d-toolkit/utils",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "types": "dist/esm/index.d.ts",
@@ -18,4 +18,4 @@
   "publishConfig": {
     "access": "public"
   }
-} 
+}
